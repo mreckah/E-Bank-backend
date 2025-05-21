@@ -159,6 +159,7 @@ _Successful connection to MySQL database_
 ### Customer Management
 
 #### Swagger UI Tests
+
 _GET - List all customers_
 ![img_4.png](images%2Fimg_4.png)
 
@@ -200,9 +201,4 @@ _Bank Account table structure and sample data_
 
 _Operations table structure and sample data_
 ![img_2.png](images%2Fimg_2.png)
-
-- 🔙 **Backend Repository**:
-> 🔗 This backend connects to the [Digital Banking Frontend](https://github.com/mreckah/DigitalBanking-front), an Angular application that consumes the REST API and handles all core banking logic and data management.
-
-
 
