@@ -131,5 +131,21 @@ The application uses a table-per-class inheritance strategy for account types:
 - `SavingsAccount`: Extends BankAccount with interest rate
 - `Operation`: Stores all banking operations
 
+## Screenshots and Test Results
 
+### Database Connection
+
+![img.png](images%2Fimg.png)
+_Successful connection to MySQL database_
+
+### Database Tables
+
+![img_1.png](images%2Fimg_1.png)
+_Customer table structure and sample data_
+
+![img_3.png](images%2Fimg_3.png)
+_Bank Account table structure and sample data_
+
+![img_2.png](images%2Fimg_2.png)
+_Operations table structure and sample data_
 
