@@ -233,6 +233,6 @@ The application now uses JWT (JSON Web Token) based authentication.
 -Unauthorized access attempt (Error 401)'
 ![img_14.png](images%2Fimg_14.png)
 
-- 🔙 **Backend Repository**:
+- 🔙 **Frontend Repository**:
   > 🔗 This backend connects to the [Digital Banking Frontend](https://github.com/mreckah/DigitalBanking-front), an Angular application that consumes the REST API and handles all core banking logic and data management.
 
