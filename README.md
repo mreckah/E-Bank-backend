@@ -2,7 +2,7 @@
 
 <h1 align="center">
   <a href="https://github.com/mreckah">
-    <img height="180" width="400" src="images/img_13.png" alt="e-Bank App" style="max-width: 300px ; border-radius: 10px;">
+    <img height="100" width="200" src="images/img_13.png" alt="e-Bank App" style="max-width: 300px ; border-radius: 10px;">
   </a>
 </h1>
 <p align="center">
@@ -201,4 +201,38 @@ _Bank Account table structure and sample data_
 
 _Operations table structure and sample data_
 ![img_2.png](images%2Fimg_2.png)
+
+## Security
+
+### Authentication
+
+The application now uses JWT (JSON Web Token) based authentication.
+
+### Available Users
+
+- Regular User:
+
+    - Username: `oussama`
+    - Password: `pass`
+    - Role: `USER`
+
+- Admin User:
+    - Username: `mreckah`
+    - Password: `pass`
+    - Roles: `USER`, `ADMIN`
+
+### Security Features
+
+- JWT-based authentication
+- Role-based authorization
+- Stateless session management
+- CORS enabled for all origins
+- CSRF protection disabled (as it's a REST API)
+
+### Testing Security in Swagger
+-Unauthorized access attempt (Error 401)'
+![img_14.png](images%2Fimg_14.png)
+
+- 🔙 **Backend Repository**:
+  > 🔗 This backend connects to the [Digital Banking Frontend](https://github.com/mreckah/DigitalBanking-front), an Angular application that consumes the REST API and handles all core banking logic and data management.
 
