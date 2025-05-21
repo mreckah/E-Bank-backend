@@ -2,7 +2,7 @@
 
 <h1 align="center">
   <a href="https://github.com/mreckah">
-    <img height="180" width="836" src="images/img_13.png" alt="e-Bank App" style="max-width: 300px ; border-radius: 10px;">
+    <img height="180" width="400" src="images/img_13.png" alt="e-Bank App" style="max-width: 300px ; border-radius: 10px;">
   </a>
 </h1>
 <p align="center">
@@ -153,52 +153,56 @@ The application uses a table-per-class inheritance strategy for account types:
 
 ### Database Connection
 
-![img.png](images%2Fimg.png)
 _Successful connection to MySQL database_
+![img.png](images%2Fimg.png)
 
 ### Customer Management
 
 #### Swagger UI Tests
-
-![img_4.png](images%2Fimg_4.png)
 _GET - List all customers_
+![img_4.png](images%2Fimg_4.png)
 
-![img_5.png](images%2Fimg_5.png)
 _POST - Create new customer_
+![img_5.png](images%2Fimg_5.png)
 
-![img_6.png](images%2Fimg_6.png)
 _PUT - Update customer_
+![img_6.png](images%2Fimg_6.png)
 
-![img_7.png](images%2Fimg_7.png)
 _DELETE - Remove customer_
+![img_7.png](images%2Fimg_7.png)
 
 ### Account Operations
 
 #### Postman & Swagger Tests
 
-![img_8.png](images%2Fimg_8.png)
 _GET - Retrieve account details_
+![img_8.png](images%2Fimg_8.png)
 
-![img_9.png](images%2Fimg_9.png)
 _POST - Create new Transfer_
+![img_9.png](images%2Fimg_9.png)
 
-![img_11.png](images%2Fimg_11.png)
 _POST - Create new Credit_
+![img_11.png](images%2Fimg_11.png)
 
-![img_12.png](images%2Fimg_12.png)
 _POST - Create new Debit_
+![img_12.png](images%2Fimg_12.png)
 
-![img_10.png](images%2Fimg_10.png)
 _GET - Retrieve account operations_
+![img_10.png](images%2Fimg_10.png)
 
 ### Database Tables
 
-![img_1.png](images%2Fimg_1.png)
 _Customer table structure and sample data_
+![img_1.png](images%2Fimg_1.png)
 
-![img_3.png](images%2Fimg_3.png)
 _Bank Account table structure and sample data_
+![img_3.png](images%2Fimg_3.png)
 
-![img_2.png](images%2Fimg_2.png)
 _Operations table structure and sample data_
+![img_2.png](images%2Fimg_2.png)
+
+- 🔙 **Backend Repository**:
+> 🔗 This backend connects to the [Digital Banking Frontend](https://github.com/mreckah/DigitalBanking-front), an Angular application that consumes the REST API and handles all core banking logic and data management.
+
+
 
